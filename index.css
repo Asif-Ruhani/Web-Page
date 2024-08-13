@@ -1,0 +1,143 @@
+ /* Header section styles */
+
+.header_class{
+    background-color: rgba(255, 144, 14, 0.10);
+    /* padding-bottom: 30px; */
+}
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 150px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+nav h1{
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.div_class1{
+    text-align: center;
+    margin-bottom: 50px;
+    /* border: 2px solid black; */
+    width: 800px;
+    margin: 50px auto;
+}
+.div_class1 h1{
+    font-weight: 800;
+    font-size: 4em;
+    line-height: 15px;
+}
+.div_class1 button, .div_class5 button{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgba(255, 166, 0, 0.747);
+    border: none;
+    margin-top: 15px;
+}
+
+.div_class2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* Section 2 styles */
+
+.div_class3{
+    display: flex;
+    align-items: center;
+    max-width: 1440opx;
+    margin: 70px 300px;
+}
+.div_class4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 70px;
+   gap: 15px;
+}
+.div_class5 h1{
+    font-size: 3em;
+}
+.span_class1, p{
+    color: rgba(0, 0, 0, 0.459);
+}
+.span_class2{
+    font-weight: 700;
+}
+#span_id1{
+    color: rgba(255, 166, 0, 0.747);
+}
+
+
+/* Section 3 styles */
+
+
+.div_class6{
+    display: flex;
+    margin: 120px 220px;
+    gap: 150px;
+}
+.div_class7 h1{
+    font-size: 4em;
+}
+.div_class7 p{
+    font-size: larger;
+    margin-top: -1em;
+}
+.div_class8{
+    display: flex;
+    align-items: center;
+}
+#div_id1{
+    /* border: 1px solid red; */
+    width: 5px;
+    height: 140px;
+    background-color: rgba(255, 166, 0, 0.747);
+    margin-right: 15px;
+}
+.div_class9{
+    background-color: white;
+    box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: larger;
+}
+.div_class10 img{
+    height: 1000px;
+}
+.div_class11{
+    background-color: rgba(255, 166, 0, 0.747);
+    font-size: xx-large;
+    color: white;
+    font-weight: 800;
+    width: 300px;
+    height: 180px;
+    border-radius: 5px;
+    text-align: center;
+
+    position: relative;
+    right: 100px;
+    bottom: 140px;
+}
+.div_class11 h1{
+    padding-top: 40px;
+    margin-bottom: -0.5em;
+}
+.div_class11 p{
+   color: white;
+}
