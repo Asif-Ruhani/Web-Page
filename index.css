@@ -22,6 +22,7 @@ nav ul{
 nav li{
     list-style: none;
     padding: 50px;
+    font-size: larger;
 }
 nav a{
     text-decoration: none;
@@ -227,4 +228,53 @@ nav h1{
 .div_class14 p{
     font-size: 1.5em;
     margin-top: -1em;
+}
+
+
+
+
+/* section 6 styles */
+
+
+
+
+.div_class15{
+    /* border: 1px solid red; */
+    width: 500px;
+    text-align: center;
+    margin: 200px auto 50px;
+}
+.div_class15 h1{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+.div_class15 p{
+    font-size: large;
+}
+.div_class16{
+    display: flex;
+    margin: 0px 220px;
+    gap: 150px;    
+}
+
+
+
+
+/* Footer styles */
+
+
+
+.footer_class{
+    margin: 100px 220px;
+    background-color: rgba(255, 144, 14, 0.10);
+    height: 100px;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.footer_class p{
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.767);
 }
